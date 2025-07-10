@@ -25,7 +25,7 @@ namespace GameManagement.Core.Games.TicTacToe
         public void PlaceSymbol(int row, int column, char symbol)
         {
             if (row < 0 || row > 2 || column < 0 || column > 2)
-                throw new ArgumentOutOfRangeException("Invalid position");
+                throw new InvalidOperationException("Invalid position");
             
             if (_grid[row, column] != ' ')
                 throw new InvalidOperationException("Position already occupied");

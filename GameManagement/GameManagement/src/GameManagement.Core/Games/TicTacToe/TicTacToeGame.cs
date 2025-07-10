@@ -30,7 +30,11 @@ namespace GameManagement.Core.Games.TicTacToe
                 _winner = currentPlayer;
                 Status = GameStatus.Completed;
             }
-            else if (!IsGameOver())
+            else if (_board.IsFull())
+            {
+                Status = GameStatus.Completed;
+            }
+            else
             {
                 EndTurn();
             }
