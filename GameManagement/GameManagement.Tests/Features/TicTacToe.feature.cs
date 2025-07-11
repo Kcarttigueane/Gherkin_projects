@@ -194,32 +194,32 @@ this.FeatureBackground();
 #line 24
     testRunner.Given("the game has started", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
                             "Player",
                             "Row",
                             "Column"});
-                table1.AddRow(new string[] {
+                table3.AddRow(new string[] {
                             "Alice",
                             "0",
                             "0"});
-                table1.AddRow(new string[] {
+                table3.AddRow(new string[] {
                             "Bob",
                             "1",
                             "0"});
-                table1.AddRow(new string[] {
+                table3.AddRow(new string[] {
                             "Alice",
                             "0",
                             "1"});
-                table1.AddRow(new string[] {
+                table3.AddRow(new string[] {
                             "Bob",
                             "1",
                             "1"});
-                table1.AddRow(new string[] {
+                table3.AddRow(new string[] {
                             "Alice",
                             "0",
                             "2"});
 #line 25
-    testRunner.When("the following moves are made:", ((string)(null)), table1, "When ");
+    testRunner.When("the following moves are made:", ((string)(null)), table3, "When ");
 #line hidden
 #line 32
     testRunner.Then("the game should be over", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
@@ -255,32 +255,32 @@ this.FeatureBackground();
 #line 36
     testRunner.Given("the game has started", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
                             "Player",
                             "Row",
                             "Column"});
-                table2.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "Alice",
                             "0",
                             "0"});
-                table2.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "Bob",
                             "0",
                             "1"});
-                table2.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "Alice",
                             "1",
                             "0"});
-                table2.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "Bob",
                             "1",
                             "1"});
-                table2.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "Alice",
                             "2",
                             "0"});
 #line 37
-    testRunner.When("the following moves are made:", ((string)(null)), table2, "When ");
+    testRunner.When("the following moves are made:", ((string)(null)), table4, "When ");
 #line hidden
 #line 44
     testRunner.Then("the game should be over", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
@@ -316,32 +316,32 @@ this.FeatureBackground();
 #line 48
     testRunner.Given("the game has started", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
                             "Player",
                             "Row",
                             "Column"});
-                table3.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             "Alice",
                             "0",
                             "0"});
-                table3.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             "Bob",
                             "0",
                             "1"});
-                table3.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             "Alice",
                             "1",
                             "1"});
-                table3.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             "Bob",
                             "0",
                             "2"});
-                table3.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             "Alice",
                             "2",
                             "2"});
 #line 49
-    testRunner.When("the following moves are made:", ((string)(null)), table3, "When ");
+    testRunner.When("the following moves are made:", ((string)(null)), table5, "When ");
 #line hidden
 #line 56
     testRunner.Then("the game should be over", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
@@ -377,48 +377,48 @@ this.FeatureBackground();
 #line 60
     testRunner.Given("the game has started", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
                             "Player",
                             "Row",
                             "Column"});
-                table4.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Alice",
                             "0",
                             "0"});
-                table4.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Bob",
                             "0",
                             "1"});
-                table4.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Alice",
                             "0",
                             "2"});
-                table4.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Bob",
                             "1",
                             "1"});
-                table4.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Alice",
                             "1",
                             "0"});
-                table4.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Bob",
                             "1",
                             "2"});
-                table4.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Alice",
                             "2",
                             "1"});
-                table4.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Bob",
                             "2",
                             "0"});
-                table4.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Alice",
                             "2",
                             "2"});
 #line 61
-    testRunner.When("the following moves are made:", ((string)(null)), table4, "When ");
+    testRunner.When("the following moves are made:", ((string)(null)), table6, "When ");
 #line hidden
 #line 72
     testRunner.Then("the game should be over", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
@@ -495,7 +495,7 @@ this.FeatureBackground();
     testRunner.Given("the game has started", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 84
-    testRunner.And("\"Alice\" has won the game", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+    testRunner.And("\"Alice\" has won the tic tac toe game", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 85
     testRunner.When("\"Bob\" tries to place symbol at position (2, 2)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");

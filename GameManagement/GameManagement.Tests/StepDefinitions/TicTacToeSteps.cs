@@ -104,8 +104,8 @@ namespace GameManagement.Tests.StepDefinitions
             game.MakeMove(row, column);
         }
 
-        [Given(@"""(.*)"" has won the game")]
-        public void GivenPlayerHasWonTheGame(string playerName)
+        [Given(@"""(.*)"" has won the tic tac toe game")]
+        public void GivenPlayerHasWonTheTicTacToeGame(string playerName)
         {
             var game = _scenarioContext.Get<TicTacToeGame>("game");
             

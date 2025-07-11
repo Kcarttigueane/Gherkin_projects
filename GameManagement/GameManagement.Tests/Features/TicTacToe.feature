@@ -81,7 +81,7 @@ Scenario: Cannot place symbol on occupied position
 
 Scenario: Cannot make move in completed game
     Given the game has started
-    And "Alice" has won the game
+    And "Alice" has won the tic tac toe game
     When "Bob" tries to place symbol at position (2, 2)
     Then an error "Game is not in progress" should be thrown
 
